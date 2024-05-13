@@ -1,5 +1,6 @@
 services:
   edge_server:
     image: harbor.containerleaks.com/rogelio-montemayor/edge_server@sha256:5273f2fe628a2003f6c1440faef3225c961f54796272cdaa5361839f8f6fd3ee
-    ports: - "8000:80"
+    ports: 
+      - "8000:80"
     restart: always
